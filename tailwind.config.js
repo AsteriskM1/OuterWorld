@@ -11,7 +11,14 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'homeDesktop': "url('/src/assets/background-home-desktop.jpg')"
       },
+    },
+    screens: {
+      'tab': '769px',
+      'mob': '376px',
+      'md': '768px',
+      'sm': '375px',
     },
   },
   plugins: [],

@@ -5,6 +5,13 @@
 /.pnp
 .pnp.js
 
+#design
+*.sketch
+*.fig
+
+*.xd
+/src/assets
+
 # testing
 /coverage
 
@@ -17,6 +24,7 @@
 
 # misc
 .DS_Store
+.prettierignore
 *.pem
 
 # debug
